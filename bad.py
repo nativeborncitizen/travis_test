@@ -1,4 +1,5 @@
-x = 1
-y = 2
-
-print(2*x)
+def add(x: int, y:int) -> int:
+    return x + y
+    
+print(add(2, 3))
+print(add('a', 'b'))
